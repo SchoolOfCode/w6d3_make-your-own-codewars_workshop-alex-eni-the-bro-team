@@ -9,9 +9,10 @@
 
 // module.exports = eeeNator();
 
-module.exports = function eeeNator() {
+module.exports = function eeeNator(string) {
 // your function goes here!
-   
+
+    return (string.replace(/[eE]/g,  "EEE"));
 }
 
 
