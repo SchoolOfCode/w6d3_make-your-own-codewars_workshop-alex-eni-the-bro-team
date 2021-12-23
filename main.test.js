@@ -8,19 +8,31 @@ describe('eeeNator answers', () => {
         ["Hello there, sir", "HEEEllo thEEErEEE, sir"],
         ["Shrek is love", "ShrEEEk is lovEEE"],
         ["Why is the sun so bright?", "Why is the sun so bright?"],
-        ["E is one of the most common letters in the English alphabet", "EEE is onEEE of thEEE most common lEEEttEEErs in the EEEnglish alphabEEEt"],
+        ["E is one of the most common letters in the English alphabet", "EEE is onEEE of thEEE most common lEEEttEEErs in thEEE EEEnglish alphabEEEt"],
         ["Why do my feet smell if they don't have a nose?", "Why do my fEEEEEEt smEEEll if thEEEy don't havEEE a nosEEE?"],
         ["Testing is terrifying!", "TEEEsting is tEEErrifying!"],
         ["According to all known laws of aviation, there is no way a bee should be able to fly.", "According to all known laws of aviation, thEEErEEE is no way a bEEEEEE should bEEE ablEEE to fly."],
         ["eeeeeeeeeee", "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"],
         ["bruh", "bruh"],
-        ["nice", "nicEEE"]
-    ])('Should replace every instance of "e" with 3 "E"s of any given string',
+        ["Excellent", "EEExcEEEllEEEnt"]
+    ])('Should replace every instance of "e" or "E" with 3 "E"s of any given string',
                         (actual, expected) => {
                         expect(actual).toEqual(expected)
     })
 })
 
+
+
+
+
+
+
+
+
+
+
+
+// Ignore! We kept this for our own learning
 
 // test(`Should replace every instance of "e" with 3 "E"s of any given string`, () => {
 //     const actual = eeeNator("Hello there, sir");
